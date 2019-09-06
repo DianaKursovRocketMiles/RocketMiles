@@ -25,6 +25,8 @@ public class RocketMilesApi {
     }
     public static Response get(String prefix){
         return RestAssured.get("https://www.rocketmiles.com/rest/places?query="+prefix+"&language=en&sessionSiteSlug=rocketmiles");
+
+
     }
 }
 
